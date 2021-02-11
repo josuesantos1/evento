@@ -1,0 +1,39 @@
+{
+    "typeDB": "sql",
+    "db": "postgres",
+    "database": "evento_api",
+    "schema": {
+        "nome_do_evento": {
+            "type": "string"
+        },
+        "data": {
+            "type": "date",
+            "comment": "data do evento"
+        },
+        "hora": {
+            "type": "time"
+        },
+        "data_de_criacao": {
+            "type": "date",
+            "comment": "data em que o evento foi criado"
+        },
+        "local": {
+            "type": "text",
+            "comment": "endereco do evento"
+        },
+        "organizador": {
+            "type": "string"
+        },
+        "sobre": {
+            "type": "text",
+            "comment": "breve descricao do evento"
+        },
+        "obs": {
+            "type": "text",
+            "comment": "observacao"
+        },
+        "ativo": {
+            "type": "booleam"
+        }
+    }
+}
